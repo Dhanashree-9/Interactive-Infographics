@@ -1,0 +1,23 @@
+# Wildlife Infographics: Past 5 Years of Wildlife Trends in India 🐅🌿
+
+This project is an interactive infographic showcasing data on wildlife trends in India over the past 5 years. It provides engaging and dynamic visualizations for exploring the population trends, conservation efforts, habitat loss, and other key data points for iconic wild animals like Tigers, Elephants, and Leopards.
+
+## 🚀 Features
+
+- **Interactive Data Visualizations**: Dynamic graphs and charts powered by Chart.js.
+- **Prompts for User Interaction**:
+  - Dropdown menu to select species.
+  - Year filter input for dynamic data filtering.
+- **Tooltips**: Hover over chart elements to view detailed insights.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop screens.
+- **Copyright Notice**: Acknowledges data sources and includes legal protection for project content.
+
+## 🎨 Technologies Used
+
+- **HTML5**: Structuring the infographic.
+- **CSS3**: Styling and responsive design.
+- **JavaScript**: Interactivity and dynamic data rendering.
+- **Chart.js**: Creating graphs and charts.
+- **Responsive Design Framework**: Ensures compatibility with various screen sizes.
+
+

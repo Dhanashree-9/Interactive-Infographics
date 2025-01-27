@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Animals in India: Trends Over 5 Years</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Wild Animals in India: Past 5 Years</h1>
+    <p>Explore population trends and conservation efforts for key wild animals in India.</p>
+  </header>
+
+  <main>
+    <!-- Section 1: Graph for Wild Animal Trends -->
+    <section id="data-visualization">
+      <h2>Population Trends (2018–2023)</h2>
+      <canvas id="wildlifeChart" width="400" height="200"></canvas>
+    </section>
+    <section id="interactive-prompts">
+        <h2>Explore Data Through Prompts</h2>
+        
+        <!-- Dropdown Prompt -->
+        <label for="species-select">Select Species:</label>
+        <select id="species-select" onchange="handleSpeciesChange()">
+          <option value="Tiger">Tiger</option>
+          <option value="Elephant">Elephant</option>
+          <option value="Leopard">Leopard</option>
+        </select>
+      
+        <!-- Input Prompt for Year -->
+        <label for="year-input">Enter a Year (2018-2023):</label>
+        <input type="number" id="year-input" min="2018" max="2023" oninput="filterYear(this.value)" />
+      </section>
+      
+
+    <!-- Section 2: Buttons for Specific Animal Data -->
+    <section id="interactive-elements">
+      <h2>Explore Individual Species</h2>
+      <button onclick="filterData('Tiger')">Tiger Population</button>
+      <button onclick="filterData('Elephant')">Elephant Population</button>
+      <button onclick="filterData('Leopard')">Leopard Population</button>
+    </section>
+  </main>
+
+  <footer>
+    
+         
+            <p>Data Sources: 
+              <a href="https://wildlifeindia.org" target="_blank">Wildlife India</a>, 
+              <a href="https://moef.gov.in" target="_blank">Ministry of Environment, Forest and Climate Change</a>
+            </p>
+            <p>&copy; 2025 Wildlife Infographics. All rights reserved.</p>
+  
+          
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

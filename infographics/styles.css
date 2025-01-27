@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4fff5;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background: #00897b;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #00695c;
+    text-align: center;
+  }
+  
+  #data-visualization, #interactive-elements {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #interactive-prompts {
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  select, input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #00897b;
+  }
+  
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #00897b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background: #005f56;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #c88787;
+    color: white;
+  }
+  
